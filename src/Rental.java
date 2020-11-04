@@ -11,7 +11,7 @@ public class Rental {
 		status = 0 ;
 		rentDate = new Date() ;
 	}
-	
+
 	public Video getVideo() {
 		return video;
 	}
@@ -30,6 +30,7 @@ public class Rental {
 			returnDate = new Date() ;
 		}
 	}
+
 	public Date getRentDate() {
 		return rentDate;
 	}
